@@ -1,6 +1,6 @@
 ---
 - name: Webserver Package Installation with Ansible Loops
-  hosts: yogesh-centos-m
+  hosts: all
 
   tasks:
     - name: Package Installation with Loops for {{ ansible_hostname }}
