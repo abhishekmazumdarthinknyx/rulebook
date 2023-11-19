@@ -1,6 +1,4 @@
 all:
   hosts:
-    localhost:
-        ansible_connection: local
-    10.0.0.7:
+     10.0.0.7:
       
